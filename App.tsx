@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
-import StoreContext, { StoreProvider, useStore } from './context/StoreContext';
+import { StoreProvider, useStore } from './context/StoreContext.tsx';
 import { AdminDashboard, UnassignedList } from './pages/AdminDashboard';
 import { MasterManagement } from './pages/MasterManagement';
 import { DriverPortal } from './pages/DriverPortal';
